@@ -1,4 +1,4 @@
-# original code sample: https://vitalflux.com/llm-chain-openai-chatgpt-python-example/
+# documentation: https://python.langchain.com/docs/modules/chains/
 # requires environment variable "OPENAI_API_KEY"
 
 from langchain.prompts import PromptTemplate
