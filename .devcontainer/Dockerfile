@@ -60,14 +60,5 @@ RUN /bin/bash /tmp/build_scripts/pip_installs.sh
 # execute tar installs ----------------------------------------------------------------------------------------
 RUN /bin/bash /tmp/build_scripts/tar_installs.sh
 
-# as vscode user ----------------------------------------------------------------------------------------------
-USER vscode
-
-# execute user installs ---------------------------------------------------------------------------------------
-RUN /bin/bash /tmp/build_scripts/vscode_user_specific_installs.sh
-
-# as root user ------------------------------------------------------------------------------------------------
-USER root
-
 # clean build scripts -----------------------------------------------------------------------------------------
 RUN rm -rf /tmp/build_scripts
