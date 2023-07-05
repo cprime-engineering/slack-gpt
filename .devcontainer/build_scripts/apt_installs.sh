@@ -10,9 +10,10 @@ apt-get -y install unzip --no-install-recommends
 apt-get -y install python3-venv python3-pip python3-dev --no-install-recommends
 
 # Install golang ----------------------------------------------------------------------------------------------
-add-apt-repository -y ppa:longsleep/golang-backports
-apt-get update
-apt-get -y install golang --no-install-recommends
+cd /tmp
+wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
+cd /
 
 # install bash-completion -------------------------------------------------------------------------------------
 apt-get -y install bash-completion --no-install-recommends

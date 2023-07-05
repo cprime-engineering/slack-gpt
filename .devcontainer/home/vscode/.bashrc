@@ -151,4 +151,5 @@ home
 #=============================================================================
 # add go binaries to path
 #=============================================================================
-export PATH="$HOME/go/bin:$PATH"
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
