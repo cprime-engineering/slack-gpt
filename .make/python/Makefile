@@ -16,7 +16,7 @@
 #--------------------------------------------------------------------------------------------------------------
 python/unittest:
 	cd ./python \
-	&& python3 -m unittest -v PromptTemplates.UnitTest.RFPCopilotTestCase	
+	&& python3 -m unittest -v PromptTemplates.UnitTest.RFPCopilotTestCase
 
 #--------------------------------------------------------------------------------------------------------------
 # python main
