@@ -22,7 +22,8 @@ prompt = PromptTemplate(
 print(prompt.format(concept=user_input))
 
 # Step 5: Instantiate the LLMChain
-llm = OpenAI(temperature=0.9)
+openai_api_key = os.environ.get("CPRIME_OPENAI_API_KEY")
+llm = OpenAI(openai_api_key=openai_api_key,temperature=0.9)
 chain = LLMChain(llm=llm, prompt=prompt)
 
 # Step 6: Run the LLMChain
