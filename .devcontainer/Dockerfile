@@ -57,6 +57,9 @@ RUN /bin/bash /tmp/build_scripts/apt_installs.sh
 # execute pip installs ----------------------------------------------------------------------------------------
 RUN /bin/bash /tmp/build_scripts/pip_installs.sh
 
+# execute tar installs ----------------------------------------------------------------------------------------
+RUN /bin/bash /tmp/build_scripts/tar_installs.sh
+
 # as vscode user ----------------------------------------------------------------------------------------------
 USER vscode
 
