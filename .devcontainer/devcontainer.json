@@ -1,0 +1,48 @@
+{
+	"name": "Docker in Docker",
+	"dockerFile": "Dockerfile",
+	"runArgs": ["--init", "--privileged"],
+	"mounts": ["source=dind-var-lib-docker,target=/var/lib/docker,type=volume"],
+	"overrideCommand": false,
+
+	// Configure host requirements.
+	"hostRequirements": {
+		"cpus": 4,
+		"memory": "8gb",
+		"storage": "32gb"
+	 },
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode",
+				"davidanson.vscode-markdownlint",
+				"ms-vscode.makefile-tools",
+				"github.copilot",
+				"ms-azuretools.vscode-docker",
+				"dotjoshjohnson.xml",
+				"mechatroner.rainbow-csv",
+				"golang.go",
+				"alexkrechik.cucumberautocomplete",
+				"ms-python.python",
+				"bazelbuild.vscode-bazel",
+				"ms-vscode.cpptools-extension-pack",
+				"stackbuild.bazel-stack-vscode"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "docker --version",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
