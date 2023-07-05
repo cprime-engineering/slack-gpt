@@ -1,3 +1,3 @@
-# gai-demo
-Generative AI Demo Project
+# bid-buddy
+Generative AI RFP Copilot
 
