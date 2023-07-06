@@ -23,7 +23,14 @@ bazel/clean:
 # bazel build
 #--------------------------------------------------------------------------------------------------------------
 bazel/build:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build @//python/...
+
+
+#--------------------------------------------------------------------------------------------------------------
+# bazel test
+#--------------------------------------------------------------------------------------------------------------
+bazel/test: bazel/build
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc test @//python/...
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel version
