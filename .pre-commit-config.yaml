@@ -20,3 +20,9 @@ repos:
     hooks:
       - id: black
         language_version: python3.8
+  - repo: local
+    hooks:
+      - id: bazel-test
+        name: bazel test
+        entry: .pre_commit/bazel_test.sh
+        language: system
