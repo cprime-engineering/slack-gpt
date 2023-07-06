@@ -1,4 +1,6 @@
 """Module bare bones prompt templates."""
+
+
 class RFPCopilotTemplate:
     """Default template."""
 
