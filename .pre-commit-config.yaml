@@ -9,3 +9,9 @@ repos:
       - id: check-case-conflict
       - id: check-merge-conflict
       - id: check-executables-have-shebangs
+  - repo: https://github.com/pycqa/pylint
+    rev: v2.17.4
+    hooks:
+    -   id: pylint
+        args:
+            - --rcfile=.pylintrc

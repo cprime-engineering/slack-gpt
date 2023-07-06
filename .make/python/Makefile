@@ -15,14 +15,14 @@
 # python unittest
 #--------------------------------------------------------------------------------------------------------------
 python/unittest:
-	cd ./python \
-	&& python3 -m unittest -v prompt_templates.test.RFPCopilotTestCase
+	cd ./python/tests \
+	&& python3 -m unittest -v rfp_copilot_template_testcase
 
 #--------------------------------------------------------------------------------------------------------------
 # python run
 #--------------------------------------------------------------------------------------------------------------
 python/run:
-	cd ./python \
+	cd ./python/console \
 	&& python3 -m app
 
 
