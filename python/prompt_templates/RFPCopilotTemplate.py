@@ -4,4 +4,4 @@ class RFPCopilotTemplate:
         pass
 
     def greeting(self):
-        return "Bid Buddy reporting for duty! I'm here to help."
+        return "Hi, I'm Ada, your RFP Support Specialist. How can I help you today?"
