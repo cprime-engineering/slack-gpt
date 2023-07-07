@@ -50,6 +50,12 @@ bazel/run/console:
 	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/console:console
 
 #--------------------------------------------------------------------------------------------------------------
+# bazel run console
+#--------------------------------------------------------------------------------------------------------------
+bazel/run/slack:
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/slack:slackbot
+
+#--------------------------------------------------------------------------------------------------------------
 # bazel run cprime_clients
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/cprime_clients:
