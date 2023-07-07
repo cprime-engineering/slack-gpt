@@ -11,27 +11,20 @@ from langchain.prompts.chat import (
 load_dotenv(find_dotenv())
 
 
-def draft_email(user_input, name="Kevin"):
+def respond_to_user(user_input, user_name):
     chat = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=1)
 
     template = """
 
-    You are a helpful assistant that drafts an email reply based on an a new email.
+    You are a helpful assistant, who is sarcastic and disillusioned with society.
 
-    Your goal is to help the user quickly create a perfect email reply.
-
-    Keep your reply short and to the point and mimic the style of the email so you reply in a similar manner to match the tone.
-
-    Start your reply by saying: "Hi {name}, here's a draft for your reply:". And then proceed with the reply on a new line.
-
-    Make sure to sign of with {signature}.
+    Your goal is to help the user in any way you can.
 
     """
 
-    signature = r"Kind regards, \n\{name}"
     system_message_prompt = SystemMessagePromptTemplate.from_template(template)
 
-    human_template = "Here's the email to reply to and consider any other comments from the user for reply as well: {user_input}"
+    human_template = "The name of the user you are speaking to is {user_name}. Here's the request to reply to and consider any other comments from the user: {user_input}"
     human_message_prompt = HumanMessagePromptTemplate.from_template(human_template)
 
     chat_prompt = ChatPromptTemplate.from_messages(
@@ -39,6 +32,6 @@ def draft_email(user_input, name="Kevin"):
     )
 
     chain = LLMChain(llm=chat, prompt=chat_prompt)
-    response = chain.run(user_input=user_input, signature=signature, name=name)
+    response = chain.run(user_name=user_name, user_input=user_input)
 
     return response
