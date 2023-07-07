@@ -7,6 +7,7 @@ py_binary(
     ],
     deps = [
         requirement("langchain"),
+        requirement("openai"),
     ],
 )
 
@@ -27,6 +28,7 @@ py_binary(
     ],
     deps = [
         requirement("langchain"),
+        requirement("openai"),
     ],
 )
 
@@ -37,5 +39,6 @@ py_binary(
     ],
     deps = [
         requirement("langchain"),
+        requirement("openai"),
     ],
 )
