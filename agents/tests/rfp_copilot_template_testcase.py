@@ -1,6 +1,6 @@
 """Module providing unit tests for RFPCopilotTemplate class."""
 import unittest
-from python.console.prompt_templates.rfp_copilot_template import RFPCopilotTemplate
+from agents.console.prompt_templates.rfp_copilot_template import RFPCopilotTemplate
 
 
 class TestCase(unittest.TestCase):

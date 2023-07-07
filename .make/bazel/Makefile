@@ -22,13 +22,13 @@ bazel/clean:
 # bazel build
 #--------------------------------------------------------------------------------------------------------------
 bazel/build:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build @//python/...
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build @//agents/...
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel test
 #--------------------------------------------------------------------------------------------------------------
 bazel/test: bazel/build
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc test @//python/...
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc test @//agents/...
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel version
@@ -47,31 +47,31 @@ bazel/lint:
 # bazel run console
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/console:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//python/console:console
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/console:console
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel run cprime_clients
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/cprime_clients:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//python/quick_hacks:cprime_clients
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/quick_hacks:cprime_clients
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel run cprime_openai
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/cprime_openai:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//python/quick_hacks:cprime_openai
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/quick_hacks:cprime_openai
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel run llm_chain
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/llm_chain:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//python/quick_hacks:llm_chain
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/quick_hacks:llm_chain
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel run tdd_langchain
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/tdd_langchain:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//python/quick_hacks:tdd_langchain
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/quick_hacks:tdd_langchain
 
 #--------------------------------------------------------------------------------------------------------------
 #
