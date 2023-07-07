@@ -1,0 +1,7 @@
+azure-core
+flask
+langchain
+openai
+python-dotenv
+slack-bolt
+slack-sdk
