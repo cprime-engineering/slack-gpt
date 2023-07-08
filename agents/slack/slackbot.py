@@ -1,12 +1,9 @@
 import os
-from slack_sdk import WebClient
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
-from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
-from langchain.chains.conversation.memory import (ConversationBufferMemory, 
-                                                  ConversationSummaryMemory, 
-                                                  ConversationBufferWindowMemory,
-                                                  ConversationKGMemory)
+from langchain import OpenAI, LLMChain
+from langchain.chains.conversation.memory import ConversationBufferWindowMemory
+
 from prompt_templates import default_template
 from prompt_templates import personalized_template
 from slack_functions import get_username_from_message
@@ -15,9 +12,10 @@ from slack_functions import get_username_from_message
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 SLACK_APP_TOKEN = os.environ["SLACK_APP_TOKEN"]
 
-# Initializes your app with your bot token and socket mode handler
+# Initializes app with your bot token
 app = App(token=SLACK_BOT_TOKEN)
 
+# LLMChain to handle conversations
 chatgpt_chain = LLMChain(
     llm=OpenAI(temperature=0), 
     prompt=default_template(), 
@@ -34,6 +32,6 @@ def message_handler(message, say, logger):
     output = chatgpt_chain.predict(human_input = message['text'])   
     say(output)
 
-# Start your app
+# Start app
 if __name__ == "__main__":
     SocketModeHandler(app, SLACK_APP_TOKEN).start()
