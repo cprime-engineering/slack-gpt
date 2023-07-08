@@ -25,6 +25,29 @@ flask_app = Flask(__name__)
 handler = SlackRequestHandler(app)
 
 
+@app.event("message")
+def handle_message(body, say):
+    """
+    Event listener for mentions in Slack.
+    When the bot is mentioned, this function processes the text and sends a response.
+
+    Args:
+        body (dict): The event data received from Slack.
+        say (callable): A function for sending a response to the channel.
+    """
+    text = body["event"]["text"]
+    user_id = body["event"]["user"]
+    user = client.users_info(user=user_id)
+    user_display_name = user["user"]["profile"]["display_name_normalized"]
+
+    mention = f"<@{SLACK_BOT_USER_ID}>"
+
+    text = text.replace(mention, "").strip()
+
+    response = respond_to_user(text, user_display_name)
+    say(response)
+
+
 @app.event("app_mention")
 def handle_mentions(body, say):
     """
