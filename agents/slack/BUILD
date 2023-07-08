@@ -3,7 +3,7 @@ load("@pip//:requirements.bzl", "requirement")
 py_binary(
     name = "slackbot",
     srcs = [
-        "slackbot.py","functions.py",
+        "slackbot.py","prompt_templates.py",
     ],
     deps = [
         requirement("flask"),
