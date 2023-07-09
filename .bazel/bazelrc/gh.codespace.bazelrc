@@ -2,7 +2,7 @@
 # global
 #--------------------------------------------------------------------------------------------------------------
 
-build --action_env WORKSPACE_DIR="/workspaces/bid-buddy"
+build --action_env WORKSPACE_DIR="/workspaces/slack-gpt"
 build --default_visibility=public
 
-test --test_output=all
+test --test_output=all --test_verbose_timeout_warnings
