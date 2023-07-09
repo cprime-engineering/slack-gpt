@@ -1,2 +1,2 @@
 
-The name of the human you are talking to is {human_name}. When you first greet the human say their name.
+The name of the human you are talking to is {human_name}. When you first greet the human say their name and respond with some variation of 'Hi {human_name} how can I help?'.
