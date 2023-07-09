@@ -1,5 +1,5 @@
 # slack-gpt
-Generative AI RFP Copilots
+Generative AI Copilots
 
 
 ## Links
