@@ -4,7 +4,7 @@ from agents.ada.prompt_generator import personalized_template
 
 expected_personalized_template_content = ""
 
-with open('tests/ada/expected_prompt_content/personalized') as f:
+with open("tests/ada/expected_prompt_content/personalized") as f:
     while True:
         line = f.readline()
         if not line:

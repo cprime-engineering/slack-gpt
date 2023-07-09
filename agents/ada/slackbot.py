@@ -17,20 +17,22 @@ app = App(token=SLACK_BOT_TOKEN)
 
 # LLMChain to handle conversations
 chatgpt_chain = LLMChain(
-    llm=OpenAI(temperature=0), 
-    prompt=default_template(), 
-    verbose=True, 
+    llm=OpenAI(temperature=0),
+    prompt=default_template(),
+    verbose=True,
     memory=ConversationBufferWindowMemory(k=2),
 )
 
-#Message handler for Slack
+
+# Message handler for Slack
 @app.message(".*")
 def message_handler(message, say, logger):
     print(message)
     human_name = get_username_from_message(message)
     chatgpt_chain.prompt = personalized_template(human_name=human_name)
-    output = chatgpt_chain.predict(human_input = message['text'])   
+    output = chatgpt_chain.predict(human_input=message["text"])
     say(output)
+
 
 # Start app
 if __name__ == "__main__":

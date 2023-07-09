@@ -7,5 +7,3 @@ Generative AI RFP Copilots
 https://python.langchain.com/
 
 https://python.langchain.com/docs/guides/evaluation/data_augmented_question_answering
-
-

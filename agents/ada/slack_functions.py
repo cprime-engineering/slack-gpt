@@ -5,6 +5,7 @@ SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 
 client = WebClient(token=SLACK_BOT_TOKEN)
 
+
 def get_username_from_message(message):
     user_id = message["user"]
     user = client.users_info(user=user_id)
