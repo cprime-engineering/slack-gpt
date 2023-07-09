@@ -1,5 +1,5 @@
-# bid-buddy
-Generative AI RFP Copilot
+# slack-gpt
+Generative AI RFP Copilots
 
 
 ## Links

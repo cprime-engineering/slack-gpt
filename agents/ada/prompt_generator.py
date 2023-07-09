@@ -5,21 +5,21 @@ header_template_content = ""
 footer_template_content = ""
 personalized_template_content = ""
 
-with open('agents/slack/pre_prompts/header') as f:
+with open('agents/ada/pre_prompts/header') as f:
     while True:
         line = f.readline()
         if not line:
             break
         header_template_content += line
 
-with open('agents/slack/pre_prompts/footer') as f:
+with open('agents/ada/pre_prompts/footer') as f:
     while True:
         line = f.readline()
         if not line:
             break
         footer_template_content += line
 
-with open('agents/slack/pre_prompts/personalized') as f:
+with open('agents/ada/pre_prompts/personalized') as f:
     while True:
         line = f.readline()
         if not line:
