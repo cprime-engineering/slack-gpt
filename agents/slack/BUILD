@@ -3,12 +3,12 @@ load("@pip//:requirements.bzl", "requirement")
 py_binary(
     name = "slackbot",
     srcs = [
-        "prompt_templates.py",
+        "prompt_generator.py",
         "slack_functions.py",
         "slackbot.py",
     ],
+    data = ["pre_prompts/header", "pre_prompts/footer", "pre_prompts/personalized"],
     deps = [
-        requirement("flask"),
         requirement("slack-sdk"),
         requirement("slack-bolt"),
         requirement("python-dotenv"),
