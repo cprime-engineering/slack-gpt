@@ -1,6 +1,6 @@
 py_test(
-    name = "prompt_generator_testcase",
-    srcs = ["prompt_generator_testcase.py"],
+    name = "pre_prompt_templates_testcase",
+    srcs = ["pre_prompt_templates_testcase.py"],
     deps = ["//agents/ada:slackbot"],
-    data = ["expected_prompt_content/personalized"],
+    data = ["expected_pre_prompts/persona", "expected_pre_prompts/footer", "expected_pre_prompts/personalized"],
 )
