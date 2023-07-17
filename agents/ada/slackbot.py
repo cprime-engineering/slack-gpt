@@ -3,7 +3,6 @@ from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from langchain import OpenAI, LLMChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-from langchain.embeddings.openai import OpenAIEmbeddings
 
 from agents.ada.prompt_generator import default_template
 from agents.ada.prompt_generator import personalized_template
@@ -17,24 +16,14 @@ OPEN_API_KEY = os.environ["CPRIME_OPENAI_API_KEY"]
 # Initializes app with your bot token
 app = App(token=SLACK_BOT_TOKEN)
 
-# Text embedding model name
-model_name = 'text-embedding-ada-002'
-
-# Embedding model used for retrieval augmentation
-embed = OpenAIEmbeddings(
-document_model_name=model_name,
-query_model_name=model_name,
-openai_api_key=OPEN_API_KEY
-)
 
 # LLMChain to handle conversations
 chatgpt_chain = LLMChain(
-    llm=OpenAI(temperature=0),
+    llm=OpenAI(openai_api_key=OPEN_API_KEY,temperature=0),
     prompt=default_template(),
     verbose=True,
     memory=ConversationBufferWindowMemory(k=2),
 )
-
 
 # Message handler for Slack
 @app.message(".*")
