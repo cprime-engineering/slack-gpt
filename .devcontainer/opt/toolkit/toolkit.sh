@@ -49,5 +49,5 @@ logo () {
 home () {
     clear
     logo
-    cd /workspaces/bid-buddy
+    cd /workspaces/slack-gpt
 }
