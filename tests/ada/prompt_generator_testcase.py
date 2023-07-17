@@ -10,7 +10,7 @@ class TestCase(unittest.TestCase):
     def test_personalized_template(self):
         """Test personalized_template method."""
 
-        f = open('tests/ada/expected_prompt_content/personalized.json')
+        f = open("tests/ada/expected_prompt_content/personalized.json")
         data = json.load(f)
         f.close
 
@@ -19,7 +19,6 @@ class TestCase(unittest.TestCase):
 
         self.assertEqual(expected_template_content, actual_template_content)
         print(actual_template_content)
-
 
 
 if __name__ == "__main__":
