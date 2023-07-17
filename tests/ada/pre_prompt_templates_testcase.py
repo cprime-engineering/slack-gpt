@@ -9,10 +9,10 @@ expected_pre_prompt_templates = PrePromptTemplates("tests/ada/expected_pre_promp
 class TestCase(unittest.TestCase):
     """pre_prompt_templates unit tests"""
 
-    def test_persona_template(self):
-        """Test persona_template.content() method."""
-        actual_template = pre_prompt_templates.persona_template.content()
-        expected_template = expected_pre_prompt_templates.persona_template.content()
+    def test_date_template(self):
+        """Test date_template.content() method."""
+        actual_template = pre_prompt_templates.date_template.content()
+        expected_template = expected_pre_prompt_templates.date_template.content()
         self.assertEqual(expected_template, actual_template)
 
     def test_footer_template(self):
@@ -21,12 +21,24 @@ class TestCase(unittest.TestCase):
         expected_template = expected_pre_prompt_templates.footer_template.content()
         self.assertEqual(expected_template, actual_template)
 
+    def test_persona_template(self):
+        """Test persona_template.content() method."""
+        actual_template = pre_prompt_templates.persona_template.content()
+        expected_template = expected_pre_prompt_templates.persona_template.content()
+        self.assertEqual(expected_template, actual_template)
+
     def test_personalized_template(self):
         """Test personalized_template.content() method."""
         actual_template = pre_prompt_templates.personalized_template.content()
         expected_template = (
             expected_pre_prompt_templates.personalized_template.content()
         )
+        self.assertEqual(expected_template, actual_template)
+
+    def test_version_template(self):
+        """Test personalized_template.content() method."""
+        actual_template = pre_prompt_templates.version_template.content()
+        expected_template = expected_pre_prompt_templates.version_template.content()
         self.assertEqual(expected_template, actual_template)
 
 

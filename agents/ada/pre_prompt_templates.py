@@ -20,11 +20,15 @@ class PrePromptTemplate:
 
 @dataclass
 class PrePromptTemplates:
-    persona_template: PrePromptTemplate
+    date_template: PrePromptTemplate
     footer_template: PrePromptTemplate
+    persona_template: PrePromptTemplate
     personalized_template: PrePromptTemplate
+    version_template: PrePromptTemplate
 
     def __init__(self, path):
-        self.persona_template = PrePromptTemplate("persona", path)
+        self.date_template = PrePromptTemplate("date", path)
         self.footer_template = PrePromptTemplate("footer", path)
+        self.persona_template = PrePromptTemplate("persona", path)
         self.personalized_template = PrePromptTemplate("personalized", path)
+        self.version_template = PrePromptTemplate("version", path)

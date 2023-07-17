@@ -9,9 +9,11 @@ py_binary(
         "slackbot.py",
     ],
     data = [
+        "pre_prompts/date",
         "pre_prompts/footer",
         "pre_prompts/persona",
         "pre_prompts/personalized",
+        "pre_prompts/version",
     ],
     deps = [
         requirement("slack-sdk"),

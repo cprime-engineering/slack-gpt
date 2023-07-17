@@ -2,9 +2,11 @@ py_test(
     name = "pre_prompt_templates_testcase",
     srcs = ["pre_prompt_templates_testcase.py"],
     data = [
+        "expected_pre_prompts/date",
         "expected_pre_prompts/footer",
         "expected_pre_prompts/persona",
         "expected_pre_prompts/personalized",
+        "expected_pre_prompts/version",
     ],
     deps = ["//agents/ada:slackbot"],
 )
