@@ -5,3 +5,5 @@ openai
 python-dotenv
 slack-bolt
 slack-sdk
+tiktoken
+pandas

@@ -2,8 +2,8 @@ from dataclasses import dataclass
 
 
 class PrePromptTemplate:
-    template = ""
-    path = ""
+    template = str()
+    path = str()
 
     def __init__(self, template, path):
         self.path = path

@@ -17,3 +17,10 @@ py_test(
     data = ["expected_prompt_content/personalized.json"],
     deps = ["//agents/ada:slackbot"],
 )
+
+py_test(
+    name = "knowledge_base_testcase",
+    srcs = ["knowledge_base_testcase.py"],
+    deps = ["//agents/ada:slackbot"],
+)
+

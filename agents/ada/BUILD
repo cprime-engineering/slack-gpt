@@ -7,6 +7,7 @@ py_binary(
         "prompt_generator.py",
         "slack_functions.py",
         "slackbot.py",
+        "knowledge_base.py",
     ],
     data = [
         "pre_prompts/date",
@@ -14,6 +15,7 @@ py_binary(
         "pre_prompts/persona",
         "pre_prompts/personalized",
         "pre_prompts/version",
+        "source_knowledge/legends_of_computer_science.json",
     ],
     deps = [
         requirement("slack-sdk"),
@@ -21,5 +23,6 @@ py_binary(
         requirement("python-dotenv"),
         requirement("langchain"),
         requirement("openai"),
+        requirement("pandas"),
     ],
 )

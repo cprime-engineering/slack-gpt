@@ -1,5 +1,9 @@
 {
     "task.allowAutomaticTasks": "on",
     "workbench.preferredDarkColorTheme": "Default Dark+",
-    "workbench.preferredLightColorTheme": "Default Dark+"
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }
