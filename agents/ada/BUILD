@@ -24,5 +24,6 @@ py_binary(
         requirement("langchain"),
         requirement("openai"),
         requirement("pandas"),
+        requirement("tiktoken"),
     ],
 )
