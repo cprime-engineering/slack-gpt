@@ -6,6 +6,7 @@ from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 
 from domain.prompt_engineering.prompt_generator import PromptGenerator
 from domain.slack_integration.web_client import WebClient
+from domain.pinecone_integration.pinecone_client import PineconeClient
 
 # Set Slack API credentials
 SLACK_BOT_TOKEN = os.environ["ADA_SLACK_BOT_TOKEN"]
@@ -31,6 +32,9 @@ chatgpt_chain = LLMChain(
     verbose=True,
     memory=ConversationBufferWindowMemory(k=2),
 )
+
+# Store documents and embeddings in the pinecone vectorstore.
+docsearch = PineconeClient.docsearch()
 
 
 # Message handler for Slack
