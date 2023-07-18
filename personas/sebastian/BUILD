@@ -5,13 +5,18 @@ py_binary(
     srcs = [
         "slackbot.py",
     ],
+    data = [
+        "pre_prompts/date",
+        "pre_prompts/footer",
+        "pre_prompts/persona",
+        "pre_prompts/personalized",
+        "pre_prompts/version",
+    ],
     deps = [
-        requirement("slack-sdk"),
+        "//domain:domain",
         requirement("slack-bolt"),
         requirement("python-dotenv"),
         requirement("langchain"),
         requirement("openai"),
-        requirement("pandas"),
-        requirement("tiktoken"),
     ],
 )

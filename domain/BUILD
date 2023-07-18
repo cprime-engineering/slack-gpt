@@ -6,8 +6,10 @@ py_library(
         "domain.py",
         "prompt_engineering/pre_prompt_templates.py",
         "prompt_engineering/prompt_generator.py",
+        "slack_integration/web_client.py",
     ],
     deps = [
         requirement("langchain"),
+        requirement("slack-sdk"),
     ],
 )
