@@ -9,8 +9,8 @@ from personas.ada.prompt_generator import personalized_template
 from slack_functions import get_username_from_message
 
 # Set Slack API credentials
-SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
-SLACK_APP_TOKEN = os.environ["SLACK_APP_TOKEN"]
+SLACK_BOT_TOKEN = os.environ["ADA_SLACK_BOT_TOKEN"]
+SLACK_APP_TOKEN = os.environ["ADA_SLACK_APP_TOKEN"]
 OPEN_API_KEY = os.environ["CPRIME_OPENAI_API_KEY"]
 
 # Initializes app with your bot token
