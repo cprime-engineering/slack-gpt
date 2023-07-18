@@ -8,7 +8,7 @@ from langchain.vectorstores import Pinecone
 
 
 class PineconeClient:
-    def docsearch():
+    def vectorstore():
         # Set pinecone credentials
         PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
         PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
@@ -29,6 +29,6 @@ class PineconeClient:
 
         # Store the documents and embeddings in the pinecone vectorstore.
         index_name = "savings-accounts"
-        docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
+        vectorstore = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 
-        return docsearch
+        return vectorstore

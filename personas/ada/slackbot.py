@@ -34,7 +34,7 @@ chatgpt_chain = LLMChain(
 )
 
 # Store documents and embeddings in the pinecone vectorstore.
-docsearch = PineconeClient.docsearch()
+vectorstore = PineconeClient.vectorstore()
 
 
 # Message handler for Slack

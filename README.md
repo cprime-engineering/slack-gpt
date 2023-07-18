@@ -6,4 +6,4 @@ Generative AI Copilots
 
 https://python.langchain.com/
 
-https://python.langchain.com/docs/guides/evaluation/data_augmented_question_answering
+https://python.langchain.com/docs/modules/chains/popular/chat_vector_db
