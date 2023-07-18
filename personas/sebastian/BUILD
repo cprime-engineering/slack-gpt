@@ -3,20 +3,9 @@ load("@pip//:requirements.bzl", "requirement")
 py_binary(
     name = "slackbot",
     srcs = [
-        "slack_functions.py",
         "slackbot.py",
-        "knowledge_base.py",
-    ],
-    data = [
-        "pre_prompts/date",
-        "pre_prompts/footer",
-        "pre_prompts/persona",
-        "pre_prompts/personalized",
-        "pre_prompts/version",
-        "source_knowledge/legends_of_computer_science.json",
     ],
     deps = [
-        "//domain:domain",
         requirement("slack-sdk"),
         requirement("slack-bolt"),
         requirement("python-dotenv"),
