@@ -12,7 +12,7 @@ def workspace():
     )
 
     pip_install(
-        requirements = "//python_requirements:requirements.txt",
+        requirements = "//requirements:requirements.txt",
     )
 
 #--------------------------------------------------------------------------------------------------------------
