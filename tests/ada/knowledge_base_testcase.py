@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 
-from agents.ada.knowledge_base import get_chunks
+from personas.ada.knowledge_base import get_chunks
 
 class TestCase(unittest.TestCase):
     """knowledge_base unit tests"""

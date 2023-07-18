@@ -8,19 +8,19 @@ py_test(
         "expected_pre_prompts/personalized",
         "expected_pre_prompts/version",
     ],
-    deps = ["//agents/ada:slackbot"],
+    deps = ["//personas/ada:slackbot"],
 )
 
 py_test(
     name = "prompt_generator_testcase",
     srcs = ["prompt_generator_testcase.py"],
     data = ["expected_prompt_content/personalized.json"],
-    deps = ["//agents/ada:slackbot"],
+    deps = ["//personas/ada:slackbot"],
 )
 
 py_test(
     name = "knowledge_base_testcase",
     srcs = ["knowledge_base_testcase.py"],
-    deps = ["//agents/ada:slackbot"],
+    deps = ["//personas/ada:slackbot"],
 )
 

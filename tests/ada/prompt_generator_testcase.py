@@ -3,7 +3,7 @@ import unittest
 import json
 from datetime import date
 
-from agents.ada.prompt_generator import personalized_template
+from personas.ada.prompt_generator import personalized_template
 
 
 class TestCase(unittest.TestCase):

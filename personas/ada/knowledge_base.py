@@ -11,7 +11,7 @@ def tiktoken_len(text):
         )
     return len(tokens)
 
-legend_data = pd.read_json('agents/ada/source_knowledge/legends_of_computer_science.json')
+legend_data = pd.read_json('personas/ada/source_knowledge/legends_of_computer_science.json')
 
 def get_data():
     return legend_data

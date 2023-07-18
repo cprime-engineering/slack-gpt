@@ -4,8 +4,8 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 from langchain import OpenAI, LLMChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 
-from agents.ada.prompt_generator import default_template
-from agents.ada.prompt_generator import personalized_template
+from personas.ada.prompt_generator import default_template
+from personas.ada.prompt_generator import personalized_template
 from slack_functions import get_username_from_message
 
 # Set Slack API credentials

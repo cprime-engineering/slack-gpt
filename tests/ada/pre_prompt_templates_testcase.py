@@ -1,8 +1,8 @@
 """Module providing unit tests for Ada Slackbot class."""
 import unittest
-from agents.ada.pre_prompt_templates import PrePromptTemplates
+from personas.ada.pre_prompt_templates import PrePromptTemplates
 
-pre_prompt_templates = PrePromptTemplates("agents/ada/pre_prompts/")
+pre_prompt_templates = PrePromptTemplates("personas/ada/pre_prompts/")
 expected_pre_prompt_templates = PrePromptTemplates("tests/ada/expected_pre_prompts/")
 
 

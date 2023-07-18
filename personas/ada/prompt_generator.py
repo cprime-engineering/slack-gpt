@@ -1,11 +1,11 @@
 from datetime import date
 from langchain import PromptTemplate
 
-from agents.ada.pre_prompt_templates import PrePromptTemplates
+from personas.ada.pre_prompt_templates import PrePromptTemplates
 
 version_number = "v0.0.0"
 
-pre_prompt_templates = PrePromptTemplates("agents/ada/pre_prompts/")
+pre_prompt_templates = PrePromptTemplates("personas/ada/pre_prompts/")
 
 date_template_content = pre_prompt_templates.date_template.content()
 footer_template_content = pre_prompt_templates.footer_template.content()

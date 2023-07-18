@@ -22,7 +22,7 @@ bazel/clean:
 # bazel build
 #--------------------------------------------------------------------------------------------------------------
 bazel/build:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build @//agents/...
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc build @//personas/...
 
 #--------------------------------------------------------------------------------------------------------------
 # bazel test
@@ -47,7 +47,7 @@ bazel/lint:
 # bazel run console
 #--------------------------------------------------------------------------------------------------------------
 bazel/run/ada:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//agents/ada:slackbot
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//personas/ada:slackbot
 
 #--------------------------------------------------------------------------------------------------------------
 #
