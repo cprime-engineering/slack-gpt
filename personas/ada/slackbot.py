@@ -1,8 +1,6 @@
 import os
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
-from langchain import OpenAI, LLMChain
-from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
@@ -18,7 +16,6 @@ OPENAI_API_KEY = os.environ["CPRIME_OPENAI_API_KEY"]
 
 # Initializes app with your bot token
 app = App(token=SLACK_BOT_TOKEN)
-
 
 # Store documents and embeddings in the pinecone vectorstore.
 vectorstore = PineconeClient.vectorstore()
