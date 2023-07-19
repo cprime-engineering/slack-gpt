@@ -5,8 +5,6 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 
-from domain.prompt_engineering.prompt_generator import PromptGenerator
-from domain.slack_integration.web_client import WebClient
 from domain.pinecone_integration.pinecone_client import PineconeClient
 
 # Set Slack API credentials
