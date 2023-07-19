@@ -2,11 +2,10 @@ import os
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-from langchain.chat_models import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain.llms import OpenAI
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory
 
-from domain.prompt_engineering.prompt_generator import PromptGenerator
-from domain.slack_integration.web_client import WebClient
 from domain.pinecone_integration.pinecone_client import PineconeClient
 
 # Set Slack API credentials
@@ -20,19 +19,11 @@ app = App(token=SLACK_BOT_TOKEN)
 # Store documents and embeddings in the pinecone vectorstore.
 vectorstore = PineconeClient.vectorstore()
 
-# completion llm
-llm = ChatOpenAI(
-    openai_api_key=OPENAI_API_KEY,
-    model_name='gpt-3.5-turbo',
-    temperature=0.0
-)
+# Conversational buffer memory to handle chat history.
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-# retrieval qa to instruct our completion llm to base answer on the information returned from our vector store
-qa = RetrievalQA.from_chain_type(
-    llm=llm,
-    chain_type="stuff",
-    retriever=vectorstore.as_retriever()
-)
+# Conversational retrieval qa to instruct our completion llm to base answer on the information returned from our vector store
+qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0), vectorstore.as_retriever(), memory=memory, verbose=True)
 
 
 # Message handler for Slack
