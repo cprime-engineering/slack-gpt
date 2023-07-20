@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Ada",
+            "type": "python",
+            "request": "launch",
+            "program": "/workspaces/slack-gpt/personas/ada/slackbot.py",
+            "console": "integratedTerminal",
+            "env": {
+              "PYTHONPATH": "/workspaces/slack-gpt/"
+            }
+        }
+
+    ]
+}
