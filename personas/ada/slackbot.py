@@ -3,7 +3,8 @@ from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
 from langchain.chat_models import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory
 
 from domain.pinecone_integration.pinecone_client import PineconeClient
 
@@ -23,11 +24,11 @@ llm = ChatOpenAI(
     openai_api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo", temperature=0.0
 )
 
+# memory
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-# retrieval qa to instruct our completion llm to base answer on the information returned from our vector store
-qa = RetrievalQA.from_chain_type(
-    llm=llm, chain_type="stuff", retriever=vectorstore.as_retriever(), verbose=True
-)
+qa = ConversationalRetrievalChain.from_llm(llm, vectorstore.as_retriever(), memory=memory, verbose=True)
+
 
 
 # Message handler for Slack
