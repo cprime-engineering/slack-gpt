@@ -9,9 +9,6 @@ py_library(
         "slack_integration/web_client.py",
         "pinecone_integration/pinecone_client.py",
     ],
-    data = [
-        "source_knowledge/savings_accounts.txt",
-    ],
     deps = [
         requirement("langchain"),
         requirement("slack-sdk"),
