@@ -1,0 +1,317 @@
+Cprime Client Case Studies
+
+Case Study #1
+
+Company Details
+Industry: Automotive manufacturing
+Company Size: Over 44,000 employees worldwide
+Location: UK (with facilities worldwide)
+Products: Luxury cars, trucks, and SUVs
+Cprime Services:
+Agile in Hardware
+Agile Training
+Product Coaching
+Executive Summary
+This leading British car maker saw the need for faster time-to-market and smoother collaboration between UK and China teams as they pursued their new electric vehicle project. After facing disappointing results with an initial vendor, the luxury car leader reached out to Cprime for guidance building and scaling an Agile practice in their Shanghai manufacturing plant with stellar results.
+
+The Challenge: The Need for Speed (to Market)
+Many markets, representing millions of potential customers, have committed to banning the sale of gas-powered vehicles by 2035. Others have made voluntary arrangements to support the adoption of electric vehicles soon. This trend underscores the value and need for quick, efficient, and sustainable EV manufacturing—a challenge this company has proudly embraced.
+
+Leadership committed to the electric vehicle project with a goal of opening production facilities in Shanghai, China. Seeing the need to get up and running quickly and ensure optimal collaboration between the Shanghai manufacturing teams and existing UK vehicle teams, establishing a solid Lean-Agile practice became a priority. 
+
+But there were some formidable challenges to overcome:
+
+Most members of the engineering and manufacturing teams in Shanghai were totally new to Agile, although familiar with Lean Manufacturing methods and concepts. So, they are learning a new way of working while simultaneously setting up new facilities, melding as a team, and taking on a new, high-priority project.
+Multinational distributed teams can face barriers because of language and cultural differences, as well as the logistical issues caused by widely spaced time zones—there is only a three-hour window when teams in the UK and China are both working.
+The company originally brought in an Agile Transformation vendor that failed to mesh effectively with the teams and didn’t make genuine progress. To reset the initiative, they brought in Cprime… and we have guided the Shanghai teams to perform “Above and Beyond” expectations.
+
+The Solution: Expert Training and Coaching that Guides New Agile Teams to Scaled Success
+Cprime Agile Coaches began working with the Shanghai teams in coordination with the company’s Lead Agile Coach in London. Success was a multi-step process.
+
+Initial Planning
+Training_Medium_black_coralDonald Ng, the Lead Agile Coach heading up the engagement for Cprime, worked directly with the UK team and all the Cprime coaches working onsite and remotely to set up both synchronous and asynchronous opportunities for collaboration on a cadence that fit everyone’s schedules and supported steady progress. 
+
+Rather than attempting to take on everything at once, the plan was to start with a team of seven coaches working with about 60 team members. As the engagement progressed beyond the fundamentals, Cprime brought in two additional coaches to meet the program’s needs over the next three months. The teams were further organized into nineteen “squads” across three coaching groups as internal roles matured. 
+
+Filling Necessary Agile Roles
+At the start, the Cprime Agile Coaches took on the responsibilities of Scrum Master for the teams, besides coaching and training. Donald has worked closely with the client team to facilitate the hiring and training processes so internal associates could fill those roles as quickly as possible. 
+
+Now, all the teams’ Scrum Masters and Product Owners are well-qualified internal team members and the Cprime coaches can focus wholly on coaching and training the teams for success. The three coaching groups now comprise two or three Cprime coaches, six internal Product Owners, and three Scrum Masters from six different squads.
+
+Agile Training
+To ground the Shanghai teams in the fundamentals of Agile and how to apply them in the manufacturing environment, the coaches facilitated several training courses over four months. These included:
+
+Twelve core module courses covering three topics (Agile Mindset, Introduction to Scrum, and the client’s unique framework for scaling Agility)
+Fifteen bite-size learning sessions on various topics developed to fill specific gaps, including Jira and Confluence fundamentals, Innovations Stories Sharing, and Kanban fundamentals.
+Seven role-based sessions to train and support new Scrum Masters and Product Owners. 
+Additionally, a Leadership Training program is slated to begin to broaden organizational support for the growing Agile practice.
+
+Ongoing Stabilization and Scaling
+As the Agile practice develops and scales, stabilization is required to ensure the organization maintains continuous improvement and reaps all the benefits of Agility. The core stabilizing factor is the Agile Community of Practice (CoP).
+
+CoPs are groups of people organized around a specific technical or business domain. A healthy CoP actively focuses on professional networking, personal relationships, shared knowledge, and common skills, forming a strong and welcoming culture within the represented teams. As a result, knowledge workers enjoy autonomy, mastery, and purpose beyond their daily tasks.
+
+In collaboration with the Scrum Masters, Cprime coaches have organized a strong and growing Agile Community of Practice supporting the Shanghai and UK teams’ ongoing stabilization.
+
+The Results: Burgeoning Agile Maturity, Continuous Improvement, and Delighted Teams
+By the end of November, the teams had worked together through eight sprints, each an improvement over the last. This trend of continuous improvement will continue and even accelerate as the new Agile leaders mature and the Cprime coaches are now free to focus only on coaching and development.
+
+Excellent Net Promoter Scores (NPS) Following Training
+Prior to Cprime’s involvement, the client had no formal process in place for measuring the efficacy and value of training and development. By introducing the NPS process, the coaches could measure the value of the Agile training programs they facilitated so that these, too, could continuously improve.
+
+An NPS can range from -100 (very poor) to 100 (essentially perfect). The average NPSs for Cprime-led training courses in Shanghai were:
+
+72.7 on the twelve core module courses
+70.9 on the 15 bite-size sessions
+74.3 on the seven role-based course
+Delighted Team Members
+Another measurement tool introduced by the coaches is a Coaching Assessment that allows the team members to rate the value of the coaching they are receiving. The following comments from team members reflect their sentiments:
+
+“The coaches encourage the teams and organize our meetings very well.”
+“They work very hard to help the teams.”
+“The Agile coaches are very good to new employees. They guide us through the projects, helping us understand the detailed background, and solving any problems or questions that come up along the way.”
+“Team meetings are held efficiently within a timebox, and we are avoiding unnecessary meetings.” 
+“The coaches have strong professional knowledge and are proactive in communicating with other groups, and escalating issues when necessary.”
+The Shanghai teams are poised for continued growth and acceleration. With continued support from Cprime Agile Coaches and In collaboration with the Agile teams at the group level in the UK, we foresee ongoing success.
+
+Case Study #2
+
+Company Details
+Industry: Networking Hardware and Telecommunications Equipment Manufacturing, Software, and IT Services
+Company Size: 26,000 (excluding contractors)
+Location: San Jose, California with offices worldwide
+Products: Network Hardware, Security Products, Collaboration Tools, Managed Services, and IOT Applications
+Cprime Services:
+Atlassian Jira Implementation and Customization
+Atlassian Cloud Migration
+Agile Training
+Enterprise Agile Coaching
+Executive Summary
+Following years of growth, this global communications leader struggled against a variety of development frameworks and project management tools. Seeking a holistic solution, the company called upon Cprime for a blended transformation of both its agile ways of working and software tooling. The engagement resulted in unprecedented Levels of visibility, traceability, and communication.
+
+The Client
+This Cprime client is one of the world’s foremost networking hardware, software, and telecommunications equipment providers. Since 1984, it has created an expansive portfolio of routers, switches, wireless access points, security products, collaboration tools, managed services, and IoT applications.
+
+Today, the California-based technology company operates in over 100 countries. Recognized for its innovations and commitment to delivering high-quality products and services, the company serves a variety of data-intensive industries, including healthcare, finance, education, and government.
+
+The company reported revenues of over $51 billion in 2022.
+
+The Challenge: Finding a Common Language and Reconnecting Siloed Teams
+Because of the size of its workforce and complex portfolio of products and services, the network and communications provider faced a set of challenges typical of many established enterprises. Decades of growth and incremental process changes had created a disconnect between its leadership, departments, and teams.
+
+“Over the years, the company adopted a variety of tools and frameworks—everyone interacted and worked differently,” explains Chuck Badger, Managing Director at Cprime. “If a developer transferred from one business unit to another, they had to start over, both from a tooling and a process perspective.”
+
+“It’s a common dilemma for organizations of this scale,” adds Elida Parish, Managing Director of Customer Success at Cprime. “Throughout the company, they developed pockets of people using different tools and trying different things. Every team had adopted its own process. Moving from area to area, they were speaking past each other—not even using the same terminology.”
+
+
+“Every team had adopted its own way of working. Moving from area to area, they were speaking past each other—not even using the same terminology.” — Elida Parish, Cprime, Managing Director, Customer Success
+
+Increasing Transparency to Improve Strategic Planning
+Besides creating communication issues, the information silos between areas hindered the company executive’s efforts to evaluate the business and plan strategically. The lack of visibility affected the company’s time to market and its ability to plan and invest in future initiatives. Declining quality and increasing costs and delivery times across the organization were also key concerns.
+
+“With everybody on a different page, there was no way for the company to roll up consistent reporting,” explains John Kosco, Cprime Enterprise Agile Transformation Consultant. “They just didn’t have visibility into what was happening in their different agile teams. They needed to raise transparency so leadership could prioritize and manage portfolios to ensure that everyone was doing the right work. And, they had to implement a unified framework to ensure the work was being done right.”
+
+“Leadership recognized that they had to standardize,” says Parish. “The goal was to improve throughput and deliver value faster by adopting a cloud-first, single project management framework, to drive alignment by moving disconnected teams onto a centralized tech stack, and to more effectively identify and meet business needs by creating a unified picture of the business.”
+
+Besides aligning its teams under a standard framework using a central tool, the company wanted to move its infrastructure online to take greater advantage of cloud technologies.
+
+The Solution: Cprime Cross-Functional Teams for Holistic Cultural and Technical Transformation
+To accomplish its goals, the company needed to perform three core tasks—promote a common, internally developed agile framework, onboard a centralized platform as a single source of truth for reporting and project management, and migrate all production data onto that platform and into the cloud without disrupting the business. It was a hybrid initiative—both cultural and technical—affecting the company’s largest engineering groups, and thousands of people.
+
+
+“Cprime was there to help the company find the best approaches to solve its problems and act as a sounding board to help build the internal capability to enable its teams long term.” — Dan Weikart, Cprime Director & Enterprise Agile Coach
+
+“The agile transformation addresses the organization’s cultural mindset and processes,” explains Anthony Crain, Cprime Business Agility Coach. “The Jira Cloud migration and technical tooling transformation provide a standardized platform for the teams to break down the work, identify strengths and weaknesses, and give management insight into exactly what the teams are doing to achieve the company’s desired business outcomes.”
+
+Enabling Cultural Change with the PRIME Approach
+The network communications provider turned to Cprime to enable the multi-faceted transformation. It was a decision driven by over a decade of experience working with Cprime as a partner for change within the organization.
+
+“Cprime’s method, PRIME—Prepare, Roadmap, Iterate, Measure, Enable— aligned perfectly with the company’s goals,” says Kosco. “We formed a collaboration infrastructure where the Cprime coaches and cross-functional teams provided the resources to help the company implement a common agile taxonomy. In practical terms, Cprime was there to help them find the best approaches to solve problems, and to act as a sounding board to help them build the internal capability to enable their teams long term.”
+
+Creating a Template for Agile Unity
+Using the PRIME approach, Cprime prepared for the agile transformation by meeting with the company leaders to establish a blueprint for forming and educating teams and teams of teams within the organization. With an approved roadmap in place, Cprime began coaching teams on how to execute a new way of working using the new Jira Cloud tools.
+
+“As coaches, Cprime engaged with the leaders and the teams, acting as a translation layer between theory and practice,” says Weikart. “We presented the new ways of working in a consistent, practical fashion that rolled up across the organization.”
+
+Besides traditional instructor-led, role-based workshops, Cprime worked with the company to create 27 Learning Bytes—short guides that reinforce context-specific agile principles and practices. Another eight Agile Primers provide detailed, always-available references that clarify core agile roles and processes. Over 18 months, Cprime’s on-the-ground coaching team expanded from 3 to over 30 members.
+
+
+“Because of the combined agile and tooling initiatives, positive change is visible everywhere. We delivered growth in earnings, revenue, and each of our key transformation metrics.” — Executive Sponsor
+
+A Technical Jira Cloud Migration to Support a New Agile Methodology
+Parallel to the coaches propagating the company’s new agile methodology, the Cprime Customer Success team worked to establish a Jira Cloud environment to centralize reporting and portfolio management, and to foster further alignment.
+
+Leveraging their expertise as an Atlassian Platinum Solution Partner, the Cprime Customer Success team worked to onboard the provider’s teams to its new Jira Cloud infrastructure. This included overseeing a complex data migration from disparate on-site Jira instances.
+
+“In many cases, the Jira data was already there,” says Parish. “But it wasn’t a simple matter of just lifting and shifting the data to the cloud. They were bringing together all their different tools and migrating them into Jira Align.”
+
+Collaborating for Optimal Outcomes
+To ensure a successful migration, the multi-disciplinary Cprime team coordinated across time zones to maintain the integrity of the migrated data. The entire process required constant cooperation between the networking provider and the Cprime Customer Success team.
+
+“Not only was Cprime migrating live data, we had to make sure we weren’t stepping on anyone’s toes as they used the system. They had many scrum and kanban boards in production that contained broken workflow validators and other issues. Those needed to be addressed before migration,” says Parish. “To accommodate their data in the cloud, we had to create customizations and methodically massage the live data to avoid duplications. Post migration, clean-up involved working hand-in-hand with the client to reconcile and map the new data meaningfully.”
+
+Working together and communicating internally, the different Cprime teams could avoid issues common to projects involving multiple vendors.
+
+Results: Unprecedented Levels of Visibility, Traceability, and Communication
+By overseeing both the migration and the agile transformation, Cprime was in an ideal position to ensure the networking communications provider’s new Jira Cloud infrastructure aligned with its goals and the updated development framework. The combined results have given the company an unprecedented view into its workflows and allowed them to make new strategic connections.
+
+“The insights and synergy the company gained by combining both the tooling transformation and on-the-ground agile coaching provided an exponential return on their investment,” says Parish. “By blending the perspectives, Cprime has helped them see their data in new ways and align more effectively with their other efforts to achieve new levels of visibility and traceability.”
+
+Quantifying Rapid Cultural Change
+Using the new tooling and agile methodology, the network communications provider successfully launched over 400 well-formed agile teams—roughly 2,800 Cisco employees—in a single quarter. 90% of those teams aligned their long-standing backlogs with management’s newly formed strategic themes. To assist the transformation, Cprime coaches led 18 role-specific training sessions, training 525 people in under six months. This enabled the company to pursue other internal training initiatives. Overall, Cprime significantly accelerated the company’s ability to deploy a new way of working across its teams.
+
+“They had a highly fractured working environment,” says Weikart. “Now, they have a unified but flexible working environment where everyone speaks the same language, sees consistent information, and is on a path that suits their specific context.”
+
+Increasing Throughput and Accelerating Delivery Schedules and Response Times
+With improved collaboration and transparency, the company has also seen an increase in throughput across multiple product lines, accelerated delivery schedules, and improved response times to customer support inquiries. It is continuing to work with Cprime to further transform the organization.
+
+“Because of the combined agile and tooling initiatives, positive change is visible everywhere,” remarks an executive sponsor. “We delivered growth in earnings, revenue, and each of our key transformation metrics. We have even raised our outlook for the next fiscal year because of our healthy backlog and the steps we have taken to improve.”
+
+Case Study #3
+
+Company Details
+Industry: Telecommunications, Technical Manufacturing
+Company Size: 164,000 (excluding contractors)
+Location: Silicon Valley, California
+Products: Consumer Electronics, Computer Software, and Online Services
+Cprime Services:
+Bespoke Training
+Expert Coaching Services
+Technical Curriculum Design
+Executive Summary
+Looking to improve its internal mechanism for upskilling its workforce in the face of a global technology talent shortage, this international tech leader turned to Cprime to help it extend its training curriculum. Cprime received positive feedback from the students and impressed the company leadership with their results.
+
+The Client
+This global technology leader builds popular consumer electronics devices like smartphones, computers, tablets, and wearable accessories, as well as software, productivity, and entertainment products. They have developed a reputation for innovation and a sleek design ethos that have made them an international household name.
+
+The Challenge: Upskilling from Within — Creating New Career Opportunities in an Established Workforce
+In response to a growing global shortage of technical talent and high attrition rates, this client looked inward to address some of its technical staffing needs.
+
+“The rationale is simple—there’s a very competitive hiring landscape for specific roles in the technology workforce economy,” explains Chris Knotts, a Director in the Cprime Learning Practice. “As a result, the device manufacturer wanted to cultivate talent from within their own ranks. Selecting and promoting people already familiar with their culture not only improves employee retention over the long term, it is also more cost effective.”
+
+It was not an idea new to the organization. The company already had a mechanism in place to recruit and upskill employees, but the program had a limited scope and capacity. The device manufacturer wanted to expand its internal retraining capabilities to include two emergent high-demand subject areas—Quality Assurance (QA) and Enterprise Program Management (EPM).
+
+The fundamental challenge for the company, however, wasn’t a lack of expertise, it was a lack of bandwidth.
+
+“They knew exactly what they wanted to do, they just needed help with the execution. They wanted someone to overcome the hurdles that prevented them from doing it themselves,” says Knott. “They needed external muscle to come in and perform the administration, needs assessment, and training design and then get in there and do the actual coaching.”
+
+To achieve that within a limited timeframe, the company required an experienced training partner with established expertise and an inventory of relevant course materials. While they expected a customized training experience tailored to their needs, they did not want to begin from scratch.
+
+Solution: Cprime—a Multi-Disciplined Team with the Right Educational Assets
+Based on previous success working together to fulfill its Atlassian tooling needs, the manufacturer shortlisted Cprime as a candidate in its request for proposal (RFP) call. Cprime won the bid on the strength of its expansive subject expertise and proven track record.
+
+“Cprime met all their personnel and asset requirements,” says Knotts. “We had the experience and instructors, and our learning catalog contained the exact course materials that they wanted us to design.”
+
+The Cprime team began the course design phase by sitting down with the management and supervisory teams to further sharpen requirements and clarify expectations. Cprime then collaborated with the company over the course of two months to develop and deliver multiple iterations of the training.
+
+
+“They knew exactly what they wanted to do, they just needed help with the execution, someone to overcome the hurdles preventing them from doing it themselves. They wanted skilled external muscle to come in and perform the administration, needs assessment, and training design and then get in there and do the actual coaching.” — Chris Knotts, Director, Cprime Learning Practice
+
+Rapidly Iterating to Meet Client Requirements
+Each of the iterations involved further defining the course design and objectives, selecting and refining course content, and creating assessment criteria to determine successful learning outcomes. A multi-disciplined Cprime team of nine people provided input to ensure the courses reflected the most up-to-date industry best practices. Leadership and subject experts from the device manufacturer’s internal talent development team provided regular input to maintain alignment between Cprime’s output and the company’s culture and ways of working.
+
+“We worked directly with their QA and EPM stakeholders, embedding with the functional heads of the teams that we would train, so they could inject their input right from the beginning,” says Knotts. “We ended up with the Quality Assurance and Enterprise Project Management learning tracks based on Cprime library materials but entirely unique to the device manufacturer’s needs.”
+
+The resulting course materials combined core Cprime course content with practical use cases that helped students relate them to real-world situations and expanded their understanding of how the principles fit the manufacturer’s greater project environment.
+
+An experienced Cprime enterprise technology coach then delivered each session, beginning with core concepts and shifting into on-the-job mentorship, demonstrating key competencies on the job.
+
+“The Cprime technology coaches got deeply involved with the teams, fostering the practical application of the software testing they were teaching,” says Knotts. “It wasn’t a matter of spoon-feeding them a lecture, It was very hands-on.”
+
+
+“We worked directly with their Quality Assurance and Enterprise Program Management stakeholders — embedding with the functional heads of the teams that we would train — so they could include their input right from the beginning.” — Chris Knotts, Director, Cprime Learning Practice
+
+Results: Off-the-shelf Training Content Combined With Custom Coach Delivery
+With only two months to prepare, Cprime delivered two intensive, ten-day training sessions. The coaches began training the first cohorts of the device manufacturer’s internal promotion candidates on the new learning tracks in month three.
+
+The Cprime trainers then oversaw concurrent online and localized training sessions at the client’s main California campus, training over 70 people across five cohorts.
+
+Despite the very intensive preparation, planning, and tight timeframes, Cprime received positive feedback from the students and impressed the company leadership with their results.
+
+“Our emphasis on the hands-on, real-world coaching component enhanced what could have easily been dry, theoretical training sessions has been really meaningful for the students,” says Knotts. “Both the students and the stakeholders really liked what we were doing and how we did it.”
+
+Because of early successes with the pilot, the device manufacturer is already looking toward a continued partnership.
+
+“They invited Cprime to plan a second set of sessions,” says Knotts. “They knew exactly what they needed and their standards were high. Because the project was under such heavy scrutiny, It’s been really satisfying to exceed their expectations.”
+
+
+“Cprime’s emphasis on hands-on, real-world coaching component into what could have been dry, theoretical, training sessions has been really meaningful for the students. Both the students and the stakeholders really liked what we were doing and how we did it.” — Chris Knotts, Director, Cprime Learning Practice
+
+Case Study #4
+
+Company Details
+Industry: Supply Chain Automation, Material Handling, Warehouse Management, Logistics, Software & IT, and Consulting Services
+Company Size: 6,000+ FTEs
+Location: United States, Europe, Asia
+Products: Automated Warehouse and Supply Chain Management Systems
+Cprime Services:
+Expert-Led GitLab Solutions and DevOps Services
+Executive Summary
+An international warehouse automation specialist partners with Cprime and GitLab to streamline development processes, reduce proposal calculation times, and increase its capacity to rapidly handle customer requests. Cprime’s DevOps specialists deployed a GitLab solution that slashed turnaround times to just 2% of the baseline.
+
+The Client
+In an era of online shopping and next-day delivery, this US-based Cprime client facilitates business continuity for thousands of brands worldwide. Their complex automated storage, retrieval, warehousing, and logistics solutions improve the flow of goods, materials, and information, allowing companies to meet the ever-growing expectations of global consumers.
+
+Industry expertise, robotics, artificial intelligence, and machine learning have made the company a global leader in materials handling and logistics. Its diverse clientele come from industries that include ecommerce, retail, food and beverage, manufacturing, and third-party logistics providers.
+
+Challenge: Streamlining Modern Warehouse Design Pipelines to Enhance Pre-Sales Efficiency
+Designing a modern automated warehousing solution is astonishingly complex. In an unoptimized environment, the sheer number of factors and volume of calculations required to create a design prototype for a new logistics facility can take weeks.
+
+“A modern warehouse is essentially a collection of robots. It’s all spectacularly complicated,” explains Kevin Ryan, Cprime Head of DevOps, EMEA. “The scope, size, and throughput of modern warehouses, and the number of unique products in any given warehouse have grown beyond our human ability to calculate. Even machines struggle to crunch the numbers efficiently.”
+
+While lengthy design calculation times were the company’s primary pain point, system complexity also resulted in an inability to react rapidly to change. Any updates to a customer’s operating parameters or facility specification would further delay pre-sales project modeling; the company had to recalculate each time-consuming potential design from scratch. The delays ranged from hours to weeks.
+
+“If customers can’t get answers from us quickly, the dialogue stalls and the entire process can grind to a halt. We wanted to change that,” says one of the project’s executive sponsors.
+
+“They were seeing new projects and revenues delayed by up to a quarter as they waited for a mathematical model. There was a potential cost of millions for each delay,” says Ryan. “The company needed a development framework that would allow them to put a pre-sales mathematical model of a warehouse in front of a customer faster, which meant boosting efficiency.”
+
+To complicate matters, any development framework the company adopted had to be a good fit with Azure Batch, the cloud platform providing the computing power to manage the calculations. The company also needed an implementation partner that could work closely with the cloud specialists on-site to modernize, scale, and streamline its infrastructure to meet the growing demand of the world’s largest retailers and manufacturers. 
+
+Solution: Leveraging the GitLab Toolchain with Cprime Expert DevOps Services
+Evaluating its options, the automated warehouse designer selected GitLab to provide the backbone for its new continuous integration and continuous development (CI/CD) initiative. Recognized for being robust, reliable, and secure, GitLab was the ideal CI/CD, collaboration, issue tracking, quality automation analysis, and code review tool. The GitLab toolchain contained everything the company needed to speed up development and enhance their predictive modeling sales tools and in-production logistics engines.
+
+To implement the solution, GitLab recommended the Expert-Led GitLab Solutions and DevOps Services of Cprime, their Certified Training Partner.
+
+“The Cprime DevOps team has invested heavily in GitLab professional services engineer certifications covering everything from CI/CD, project management, DevOps, and inner sourcing, to security and system admin,” explains Ryan. “But the requirements for this engagement went beyond professional GitLab implementation services. The company hired Cprime to show them how to take the GitLab toolchain and achieve elite DevOps CI/CD performance.” 
+
+
+“The requirements for this engagement went beyond professional GitLab implementation services. The company hired Cprime to show them how to take the GitLab toolchain and achieve elite DevOps CI/CD performance.” — Kevin Ryan, Cprime Head of DevOps, EMEA
+
+Discovering Context and Objectives Using Spikes
+The two-person Cprime team began Discovery to define the company’s context and objectives clearly. They started by creating research tasks to identify and resolve questions and explore potential solutions.
+
+“By creating technical spikes, we formed an understanding of their codebase and what they needed to achieve,” says Ryan. “Using those prototypes, we rapidly gathered feedback and verified we were on the right track.”
+
+Tailoring Toolsets and Processes for the Azure Environment
+After achieving consensus with the company’s management and DevOps teams, the Cprime team tailored the new GitLab instance to work specifically within the customer’s Microsoft Azure environment and security context.
+
+“We created secure containers, CI/CD pipelines, and process templates,” says Ryan. “The result was a universal base implementation they could reuse across multiple projects to speed up development long term.”
+
+Infrastructure as Code With Helm and Terraform
+To ensure a consistent, easily deployed development environment, the Cprime team also worked with the company to leverage GitLab CI/CD’s native Terraform integration. Using the Terraform Helm provider allowed the company to begin centrally deploying Helm charts. This allowed it to manage high- and low-level Azure Kubernetes components, easily implement and modify Infrastructure-as-Code (IaC) workflows, and simplify the creation of common and complex infrastructure patterns.
+
+Throughout the process, Cprime worked to bridge the gaps, coordinating and driving innovation between company stakeholders, DevOps teams, and third-party Azure infrastructure architects.
+
+“As implementation specialists, Cprime took the work of all the teams, rationalized it, and worked as the engine that put it into production,” says Ryan. “It was all about streamlining collaboration and automating the processes to speed up development.”
+
+
+“As implementation specialists, Cprime took the output of all the teams, rationalized it, and put it into production using GitLab. It was all about streamlining collaboration and automating processes to accelerate development.” — Kevin Ryan, Cprime Head of DevOps, EMEA
+
+Results: Increased Deployment Frequency and Reduced Error Rates 
+Because of the combined efforts of Cprime and the project teams, the warehouse design company established high levels of process maturity based on DevOps Research and Assessment (DORA) core metrics. Across the board, the company’s deployment frequency increased while it slashed its change lead times, change failure rates, and mean error recovery times.
+
+Cumulative Change Dramatically Reduces Turnaround Times
+As an indicator of the efficacy of the cumulative changes, the company reduced simulation times from over 11 hours to as few as 24 minutes. Turnarounds on proposal submissions showed similarly dramatic improvements.
+
+“We’ve reduced the time to solution—from receiving customer data to running designs and calculations and ultimately giving out a warehouse proposal—from eight weeks down to one day,” the executive sponsor states. “The productivity increase has scaled our capacity to answer RFQs and engage with new and existing customers.”
+
+Likewise, by using GitLab project templates, Terraform, and Helm scripts to automate their CI/CD pipeline, the company’s development team recently set a new turnaround record—they received a new specification and deployed the corrected warehouse design in only 90 minutes.
+
+
+“We’ve reduced the time to solution—from having customer data to running designs and calculations and ultimately giving out a warehouse proposal—from eight weeks down to one day. The productivity increase has scaled our capacity to answer RFQs and engage with new and existing customers.” — Executive Sponsor
+
+Getting There With Cprime
+During the engagement, Cprime exceeded the client’s expectations for GitLab professional engineering services. Based on Cprime’s performance and the clear successes of phase one, the company has extended the relationship indefinitely.
+
+“We started with a very short engagement and, based on our performance, over a year later we support all their GitLab and Azure-related activities,” says Ryan. “The company learned what I want all potential Cprime customers to understand: if you want to become a high-performing, elite development organization, Cprime will get you there.”
+

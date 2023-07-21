@@ -56,10 +56,10 @@ bazel/run/sebastian:
 	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//personas/sebastian:slackbot
 
 #--------------------------------------------------------------------------------------------------------------
-# bazel run pinecone savings_accounts_upsert
+# bazel run pinecone cprime_case_studies_upsert
 #--------------------------------------------------------------------------------------------------------------
-bazel/run/pinecone/savings_accounts_upsert:
-	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//utilities/pinecone_integration:savings_accounts_upsert
+bazel/run/pinecone/cprime_case_studies_upsert:
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//utilities/pinecone_integration:cprime_case_studies_upsert
 
 #--------------------------------------------------------------------------------------------------------------
 #

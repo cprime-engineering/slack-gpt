@@ -1,12 +1,12 @@
 load("@pip//:requirements.bzl", "requirement")
 
 py_binary(
-    name = "savings_accounts_upsert",
+    name = "cprime_case_studies_upsert",
     srcs = [
-        "savings_accounts_upsert.py",
+        "cprime_case_studies_upsert.py",
     ],
     data = [
-        "source_knowledge/savings_accounts.txt",
+        "source_knowledge/cprime_case_studies.txt",
     ],
     deps = [
         requirement("langchain"),

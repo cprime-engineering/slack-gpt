@@ -13,7 +13,7 @@ PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
 
 # load documents and split them.
 loader = TextLoader(
-    "utilities/pinecone_integration/source_knowledge/savings_accounts.txt"
+    "utilities/pinecone_integration/source_knowledge/cprime_case_studies.txt"
 )
 documents = loader.load()
 
@@ -25,8 +25,6 @@ embeddings = OpenAIEmbeddings()
 # initialize pinecone
 pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
 
-index_name = "savings-accounts"
-
 # Store the documents and embeddings in the pinecone vectorstore.
-index_name = "savings-accounts"
+index_name = "cprime-case-studies"
 vectorstore = Pinecone.from_documents(docs, embeddings, index_name=index_name)

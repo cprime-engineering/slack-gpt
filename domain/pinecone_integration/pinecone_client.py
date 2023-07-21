@@ -15,7 +15,7 @@ class PineconeClient:
         # initialize pinecone
         pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
 
-        index_name = "savings-accounts"
+        index_name = "cprime-case-studies"
         embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
         vectorstore = Pinecone.from_existing_index(index_name, embeddings)
 
