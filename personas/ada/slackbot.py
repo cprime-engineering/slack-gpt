@@ -6,7 +6,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain import PromptTemplate
-from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 
 from domain.pinecone_integration.pinecone_client import PineconeClient
 
@@ -27,12 +26,12 @@ llm = ChatOpenAI(
     openai_api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo", temperature=0.0
 )
 
-prompt_template = """Your name is Ada. Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+prompt_template = """Your name is Ada. The Human you are talking to works for Cprime. Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
 {context}
 
-Question: {question}
-Helpful Answer:"""
+Human Question: {question}
+Your Helpful Answer:"""
 
 qa_prompt = PromptTemplate(
     template=prompt_template, input_variables=["context", "question"]
@@ -42,13 +41,17 @@ qa_prompt = PromptTemplate(
 # memory
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
+# kwargs for combine_docs_chain
+combine_docs_chain_kwargs = {"prompt": qa_prompt}
+
 qa = ConversationalRetrievalChain.from_llm(
-    llm, 
-    vectorstore.as_retriever(), 
+    llm,
+    vectorstore.as_retriever(),
     verbose=True,
-    memory=memory, 
-    combine_docs_chain_kwargs={'prompt': qa_prompt}
-    )
+    memory=memory,
+    combine_docs_chain_kwargs=combine_docs_chain_kwargs,
+)
+
 
 # Message handler for Slack
 @app.message(".*")
