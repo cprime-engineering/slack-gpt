@@ -37,13 +37,13 @@ qa_prompt = PromptTemplate(
     template=prompt_template, input_variables=["context", "question"]
 )
 
-
 # memory
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-# kwargs for combine_docs_chain
+# keyword arguements for combine_docs_chain
 combine_docs_chain_kwargs = {"prompt": qa_prompt}
 
+# question and answer chain chain
 qa = ConversationalRetrievalChain.from_llm(
     llm,
     vectorstore.as_retriever(),
