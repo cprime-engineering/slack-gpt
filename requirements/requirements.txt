@@ -1,6 +1,6 @@
 azure-core
 flask
-langchain
+langchain == 0.0.239
 openai
 python-dotenv
 slack-bolt
