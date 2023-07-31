@@ -7,7 +7,8 @@ py_library(
         "prompt_engineering/pre_prompt_templates.py",
         "prompt_engineering/prompt_generator.py",
         "slack_integration/web_client.py",
-        "pinecone_integration/pinecone_client.py",
+        "pinecone_integration/cprime_case_studies_pinecone_client.py",
+        "pinecone_integration/safe_reference_pinecone_client.py",
     ],
     deps = [
         requirement("langchain"),

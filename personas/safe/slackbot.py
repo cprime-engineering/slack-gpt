@@ -7,11 +7,11 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain import PromptTemplate
 
-from domain.pinecone_integration.cprime_case_studies_pinecone_client import PineconeClient
+from domain.pinecone_integration.safe_reference_pinecone_client import PineconeClient
 
 # Set Slack API credentials
-SLACK_BOT_TOKEN = os.environ["ADA_SLACK_BOT_TOKEN"]
-SLACK_APP_TOKEN = os.environ["ADA_SLACK_APP_TOKEN"]
+SLACK_BOT_TOKEN = os.environ["SAFE_SLACK_BOT_TOKEN"]
+SLACK_APP_TOKEN = os.environ["SAFE_SLACK_APP_TOKEN"]
 OPENAI_API_KEY = os.environ["CPRIME_OPENAI_API_KEY"]
 
 # Initializes app with your bot token
@@ -26,7 +26,7 @@ llm = ChatOpenAI(
     openai_api_key=OPENAI_API_KEY, model_name="gpt-3.5-turbo", temperature=0.0
 )
 
-prompt_template = """Your name is Ada. The Human you are talking to works for Cprime. Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+prompt_template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
 {context}
 

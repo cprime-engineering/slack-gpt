@@ -16,3 +16,20 @@ py_binary(
         requirement("tiktoken"),
     ],
 )
+
+py_binary(
+    name = "safe_reference_upsert",
+    srcs = [
+        "safe_reference_upsert.py",
+    ],
+    data = [
+        "source_knowledge/safe_reference.txt",
+    ],
+    deps = [
+        requirement("langchain"),
+        requirement("python-dotenv"),
+        requirement("openai"),
+        requirement("pinecone-client"),
+        requirement("tiktoken"),
+    ],
+)
