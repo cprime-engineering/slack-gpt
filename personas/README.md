@@ -1,6 +1,6 @@
 # Slack Setup
 
-1: Navigate to https://api/slack.com/apps
+1: Navigate to https://api.slack.com/apps
 
 2: Click 'create new app'.
 
