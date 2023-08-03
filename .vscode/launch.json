@@ -11,6 +11,16 @@
               "PYTHONPATH": "/workspaces/slack-gpt/"
             }
         }
+        {
+            "name": "Debug Safe",
+            "type": "python",
+            "request": "launch",
+            "program": "/workspaces/slack-gpt/personas/safe/slackbot.py",
+            "console": "integratedTerminal",
+            "env": {
+              "PYTHONPATH": "/workspaces/slack-gpt/"
+            }
+        }
 
     ]
 }
