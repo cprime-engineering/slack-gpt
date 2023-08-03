@@ -7,7 +7,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain import PromptTemplate
 
-from domain.pinecone_integration.safe_reference_pinecone_client import PineconeClient
+from domain.vector_stores.safe_reference import SafeReference
 
 # Set Slack API credentials
 SLACK_BOT_TOKEN = os.environ["SAFE_SLACK_BOT_TOKEN"]
@@ -17,8 +17,8 @@ OPENAI_API_KEY = os.environ["CPRIME_OPENAI_API_KEY"]
 # Initializes app with your bot token
 app = App(token=SLACK_BOT_TOKEN)
 
-# Store documents and embeddings in the pinecone vectorstore.
-vectorstore = PineconeClient.vectorstore()
+
+vectorstore = SafeReference().vectorstore()
 
 
 # completion llm

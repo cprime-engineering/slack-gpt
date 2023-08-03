@@ -6,7 +6,8 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 
 
 class PineconeClient:
-    def vectorstore():
+    
+    def pincone_vectorstore(self, index_name):
         # Set pinecone credentials
         PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
         PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
@@ -14,8 +15,6 @@ class PineconeClient:
 
         # initialize pinecone
         pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
-
-        index_name = "safe-reference"
         embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
         vectorstore = Pinecone.from_existing_index(index_name, embeddings)
 
