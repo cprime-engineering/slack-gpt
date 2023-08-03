@@ -74,6 +74,12 @@ bazel/run/pinecone/safe_reference_upsert:
 	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//utilities/pinecone_integration:safe_reference_upsert
 
 #--------------------------------------------------------------------------------------------------------------
+# bazel run pinecone scrum_guide_upsert
+#--------------------------------------------------------------------------------------------------------------
+bazel/run/pinecone/scrum_guide_upsert:
+	./bazelisk --bazelrc=.bazel/bazelrc/gh.codespace.bazelrc run @//utilities/pinecone_integration:scrum_guide_upsert
+
+#--------------------------------------------------------------------------------------------------------------
 #
 # End bazel make targets
 #

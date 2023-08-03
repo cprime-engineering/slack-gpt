@@ -33,3 +33,20 @@ py_binary(
         requirement("tiktoken"),
     ],
 )
+
+py_binary(
+    name = "scrum_guide_upsert",
+    srcs = [
+        "scrum_guide_upsert.py",
+    ],
+    data = [
+        "source_knowledge/scrum_guide.md",
+    ],
+    deps = [
+        requirement("langchain"),
+        requirement("python-dotenv"),
+        requirement("openai"),
+        requirement("pinecone-client"),
+        requirement("tiktoken"),
+    ],
+)
